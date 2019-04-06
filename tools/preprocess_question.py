@@ -11,8 +11,6 @@ from ansemb.dataset.preprocess import extract_vocab
 import ansemb.utils as utils
 from ansemb.vector import Vector
 
-from IPython import embed
-
 parser = argparse.ArgumentParser()
 parser.add_argument('--vocab_json_path', default='data/question.vocab.json', type=str)
 args = parser.parse_args()

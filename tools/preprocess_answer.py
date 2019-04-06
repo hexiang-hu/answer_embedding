@@ -10,8 +10,6 @@ import ansemb.utils as utils
 import ansemb.dataset.preprocess as prepro
 from ansemb.vector import Vector
 
-from IPython import embed
-
 parser = argparse.ArgumentParser()
 parser.add_argument('--max_answers', default=None, type=int)
 parser.add_argument('--dataset', default='v7w', choices=['v7w', 'vqa', 'vg', 'vizwiz'])

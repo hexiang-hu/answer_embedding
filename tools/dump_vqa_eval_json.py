@@ -2,7 +2,6 @@ import os, sys
 import json
 import argparse
 import torch
-from IPython import embed
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--input_path', required=True, type=str)
