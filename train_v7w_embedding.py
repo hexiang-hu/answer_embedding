@@ -19,7 +19,6 @@ import time
 cudnn.enabled = True
 cudnn.benchmark = True
 
-import _init_paths
 from ansemb.config import cfg, set_random_seed, update_train_configs
 import ansemb.dataset.v7w as data
 import ansemb.models.embedding as model
@@ -27,8 +26,6 @@ import ansemb.utils as utils
 
 from ansemb.utils import cosine_sim
 from ansemb.vector import Vector
-
-from IPython import embed
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--gpu_id', default=0, type=int)

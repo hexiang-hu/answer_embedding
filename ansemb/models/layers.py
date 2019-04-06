@@ -6,8 +6,6 @@ import torch.nn.init as init
 from torch.autograd import Variable
 from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence
 
-from IPython import embed
-
 class MLP(nn.Sequential):
   def __init__(self, in_features, mid_features, out_features, drop=0.0, groups=1):
     super(MLP, self).__init__()
@@ -204,7 +202,7 @@ class BagOfWordsProcessor(nn.Module):
 
   def forward(self, q, q_len):
     embedded = self.embedding(q)
-    q_len = Variable(torch.Tensor(q_len).view(-1, 1) + 1e-12, requires_grad=False).cuda(async=True)
+    q_len = Variable(torch.Tensor(q_len).view(-1, 1) + 1e-12, requires_grad=False).cuda()
 
     return torch.div( torch.sum(embedded, 1), q_len )
 

@@ -19,7 +19,6 @@ import time
 cudnn.enabled = True
 cudnn.benchmark = True
 
-import _init_paths
 from ansemb.config import cfg, set_random_seed, update_train_configs
 import ansemb.dataset.vg as data
 import ansemb.models.embedding as model

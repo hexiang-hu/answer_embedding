@@ -6,7 +6,6 @@ from torch.nn.utils.rnn import pack_padded_sequence
 
 import time
 from ansemb.models.layers import *
-from IPython import embed
 
 class StackedAttentionEmbedding(nn.Module):
   def __init__(self, embedding_tokens, embedding_weights=None,
