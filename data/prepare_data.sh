@@ -19,7 +19,7 @@ else
 fi
 
 mkdir -p vqa2
-if [ -f "vqa2/v2_OpenEnded_mscoco_train2014_questions.json" ]; then
+if [ -f "vqa2/vqa_train_questions.json" ]; then
   echo "vqa2 dataset exists, skipping..."
 else
   echo "Download vqa2"
