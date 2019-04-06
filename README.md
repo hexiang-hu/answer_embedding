@@ -41,7 +41,7 @@ Please cite with the following bibtex if you are using any related resource of t
 ```
 
 ## Acknowledgement
-Part of this code uses components from [pytorch-vqa](git@github.com:Cyanogenoid/pytorch-vqa.git) and [torchtext](https://github.com/pytorch/text). We thank authors for releasing their code. 
+Part of this code uses components from [pytorch-vqa](https://github.com/Cyanogenoid/pytorch-vqa) and [torchtext](https://github.com/pytorch/text). We thank authors for releasing their code. 
 
 ## References
 
