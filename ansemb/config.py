@@ -92,18 +92,6 @@ cfg.Visual7W.test_v7w_decoys  = 'v7w_test_decoys.json'
 
 cfg.Visual7W.img_path = osp.join(cfg.Visual7W.qa_path, 'images')
 
-# Vizwiz Params
-cfg.Vizwiz = edict()
-cfg.Vizwiz.qa_path = osp.join(project_root, 'data', 'vizwiz')
-cfg.Vizwiz.feature_path = osp.join(project_root, 'features', 'vizwiz-resnet-14x14.h5')
-cfg.Vizwiz.answer_vocab_path = osp.join(project_root, 'data', 'answer.vocab.vizwiz.json')
-
-cfg.Vizwiz.train_qa = osp.join('Annotations', 'train.json')
-cfg.Vizwiz.val_qa   = osp.join('Annotations', 'val.json')
-cfg.Vizwiz.test_qa  = osp.join('Annotations', 'test.json')
-
-cfg.Vizwiz.img_path = osp.join(cfg.Vizwiz.qa_path, 'Images')
-
 def set_random_seed(seed):
   random.seed(seed)
   if torch.cuda.is_available():
