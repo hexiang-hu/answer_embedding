@@ -4,7 +4,6 @@ from torch.autograd import Variable
 import torch.nn.functional as F
 
 from ansemb.utils import cosine_sim
-from IPython import embed
 
 class ContrastiveLoss(nn.Module):
   def __init__(self, margin=0.2, measure=False, dual=False, beta=10):

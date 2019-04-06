@@ -13,8 +13,6 @@ from torch.utils.data.dataloader import default_collate
 from ansemb.config import cfg
 from ansemb.dataset.preprocess import invert_dict
 
-from IPython import embed
-
 class VisualQA(data.Dataset):
   def __init__(self,
                vector,

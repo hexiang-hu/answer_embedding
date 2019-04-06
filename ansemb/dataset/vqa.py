@@ -17,8 +17,6 @@ from ansemb.dataset.preprocess import process_punctuation, invert_dict
 import ansemb.utils as utils
 import ansemb.dataset.data_utils as data_utils
 
-from IPython import embed
-
 def path_for(train=False, val=False, test=False, question=False, answer=False):
   assert train + val + test == 1
   assert question + answer == 1

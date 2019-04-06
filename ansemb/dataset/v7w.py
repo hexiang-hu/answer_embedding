@@ -15,7 +15,6 @@ from ansemb.dataset.base import VisualQA
 
 import ansemb.utils as utils
 import ansemb.dataset.data_utils as data_utils
-from IPython import embed
 
 def path_for(train=False, val=False, test=False):
   assert train + val + test == 1
