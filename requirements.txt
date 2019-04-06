@@ -2,3 +2,4 @@ easydict==1.9
 nltk==3.4.0.3
 h5py==2.9.0
 python>3.0
+numpy>=1.10
