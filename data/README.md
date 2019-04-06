@@ -14,8 +14,8 @@ sh prepare_data.sh
 After running the above script, please download the images for each dataset and put them in the subdirectory `<dataset>/image` for visual feature extraction.  
 
 ## References
-- **qaVG**. Being Negative but Constructively:
+- **[qaVG] dataset**. Being Negative but Constructively:
 Lessons Learnt from Creating Better Visual Question Answering Datasets ([qaVG website](http://www.teds.usc.edu/website_vqa/))
-- **V7W** Grounded Question Answering in Images
+- **[V7W] dataset** Grounded Question Answering in Images
  ([website](http://web.stanford.edu/~yukez/visual7w/index.html))
-- **VQA2** Making the V in VQA Matter: Elevating the Role of Image Understanding in Visual Question Answering [website](http://www.visualqa.org/)
+- **[VQA2] dataset** Making the V in VQA Matter: Elevating the Role of Image Understanding in Visual Question Answering [website](http://www.visualqa.org/)
