@@ -1,7 +1,30 @@
 # Answer Embedding
 Code Release for [Learning Answer Embeddings for Visual Question Answering](http://openaccess.thecvf.com/content_cvpr_2018/papers/Hu_Learning_Answer_Embeddings_CVPR_2018_paper.pdf). (CVPR 2018)
 
-## Coming Soon
+## Usage
+
+
+```
+usage: train_v7w_embedding.py [-h] [--gpu_id GPU_ID] [--batch_size BATCH_SIZE]
+                              [--max_negative_answer MAX_NEGATIVE_ANSWER]
+                              [--answer_batch_size ANSWER_BATCH_SIZE]
+                              [--loss_temperature LOSS_TEMPERATURE]
+                              [--pretrained_model PRETRAINED_MODEL]
+                              [--context_embedding {SAN,BoW}]
+                              [--answer_embedding {BoW,RNN}] [--name NAME]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --gpu_id GPU_ID
+  --batch_size BATCH_SIZE
+  --max_negative_answer MAX_NEGATIVE_ANSWER
+  --answer_batch_size ANSWER_BATCH_SIZE
+  --loss_temperature LOSS_TEMPERATURE
+  --pretrained_model PRETRAINED_MODEL
+  --context_embedding {SAN,BoW}
+  --answer_embedding {BoW,RNN}
+  --name NAME
+```
 
 ## Bibtex
 
@@ -16,6 +39,9 @@ Please cite with the following bibtex if you are using any related resource of t
   year={2018}
 }
 ```
+
+## Acknowledgement
+Part of this code uses components from [pytorch-vqa](git@github.com:Cyanogenoid/pytorch-vqa.git) and [torchtext](https://github.com/pytorch/text). We thank authors for releasing their code. 
 
 ## References
 
